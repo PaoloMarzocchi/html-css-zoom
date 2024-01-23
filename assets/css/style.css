@@ -3,3 +3,42 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* #region Color Palette */
+:root{
+    --zoom-primary: rgba(34, 34, 34, 1);
+    --zoom-secondary: rgba(74, 74, 74, 1);
+    --zoom-success: rgba(75, 200, 0, 1);
+    --zoom-danger: rgba(230, 20, 41, 1);
+}
+/* #endregion Color Palette */
+
+/* #region  Common*/
+    .d-flex{
+        display: flex;
+    }
+/* #endregion  Common*/
+
+.container{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.view{
+    
+    position: absolute;
+    top: 1rem;
+    right: 0.7rem;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.view-option{
+    color: white;
+    background-color: var(--zoom-secondary);
+    padding: 0.5rem 0.4rem;
+    border-radius: 5px;
+}
